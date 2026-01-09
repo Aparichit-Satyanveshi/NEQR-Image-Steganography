@@ -11,7 +11,7 @@ The objective is to validate correctness, reversibility, and bit-level consisten
 3. Pixel coordinates are handled explicitly
 4. Secret image data is embedded into a cover image in a reversible manner
 5. Extraction reconstructs the original secret image without prior knowledge of its dimensions
-This implementation ** does not rely on quantum hardware or simulators** ,
+This implementation **does not rely on quantum hardware or simulators** ,
 but all operations are constrained so that they can be mapped to quantum logic.
 
 ### Scope
@@ -20,6 +20,7 @@ but all operations are constrained so that they can be mapped to quantum logic.
 - Bit-level embedding and extraction
 - Reconstruction with zero information loss
 - Metric-based validation (MSE, MAE, PSNR)
+
 
 
 
