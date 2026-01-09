@@ -25,8 +25,6 @@ Compute MSE, MAE, and PSNR and visualize results
 3. Encode cover image in NEQR-style representation
 4. Embed secret data
 5. Extract embedded data
-6. Display the reconstructed images
-
-Reconstruct secret image
-
-Evaluate reconstruction quality
+6. Reconstruct secret image
+7. Display the reconstructed images
+8. Evaluate reconstruction quality
