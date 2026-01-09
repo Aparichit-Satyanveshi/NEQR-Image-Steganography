@@ -1,10 +1,12 @@
 ### File Responsibilities
 
-- Image I/O modules:  loading_cover_image.ipynb,loading_secret_image.ipynb
-Load, normalize, and validate grayscale images
+- Image I/O modules:
+  loading_cover_image.ipynb,loading_secret_image.ipynb
+      Load, normalize, and validate grayscale images
 
-- Binary conversion utilities : loading_secret_image.ipynb
-Convert pixel values to fixed-length binary representations and back
+- Binary conversion utilities :
+  loading_secret_image.ipynb
+     Convert pixel values to fixed-length binary representations and back
 
 - Embedding logic: Embedding_full.ipynb
 Embed secret bitstreams into cover image representations
