@@ -1,1 +1,10 @@
 # NEQR-Image-Steganography
+
+## Purpose :
+Quantum Image Processing (QIP) explores how quantum computation can be used to represent, manipulate, and secure digital images. Among the proposed quantum image representations, the [Novel Enhanced Quantum Representation (NEQR) model](https://link.springer.com/article/10.1007/s11128-013-0567-z) encodes grayscale pixel values directly into computational basis states while using separate qubit registers to represent pixel coordinates. This structure allows exact retrieval of pixel intensities through measurement, making NEQR particularly suitable for reversible image processing and steganographic applications. This implementation is based upon the [Quantum steganography based on reflectedgray code for color images](https://journals.sagepub.com/doi/abs/10.3233/IDT-190034)
+
+This project presents a complete NEQR-inspired image steganography pipeline developed through a staged design approach. The implementation begins with a **classical simulation** that strictly preserves quantum logical constraints, followed by progressively more explicit quantum circuit formulations. The classical stage is not a conventional approximation; instead, it enforces bit-level reversibility, explicit register management, and ancilla handling consistent with quantum execution. This design choice enables rigorous validation and debugging before transitioning to quantum simulators or hardware.
+
+The repository is organized into **three complementary implementations**: **a classical NEQR simulation for correctness verification**, **a pixel-wise quantum circuit model for localized circuit construction**, and **a global quantum circuit design employing comparator logic for coordinate-based pixel selection**. Together, these implementations provide a structured pathway from classical validation to quantum realization.
+
+By emphasizing reversibility, modularity, and quantum readiness, this project serves both as a practical implementation of NEQR-based image steganography and as a reliable foundation for future deployment on quantum computing platforms.
