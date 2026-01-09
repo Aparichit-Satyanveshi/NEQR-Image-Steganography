@@ -8,3 +8,16 @@ This project presents a complete NEQR-inspired image steganography pipeline deve
 The repository is organized into **three complementary implementations**: **a classical NEQR simulation for correctness verification**, **a pixel-wise quantum circuit model for localized circuit construction**, and **a global quantum circuit design employing comparator logic for coordinate-based pixel selection**. Together, these implementations provide a structured pathway from classical validation to quantum realization.
 
 By emphasizing reversibility, modularity, and quantum readiness, this project serves both as a practical implementation of NEQR-based image steganography and as a reliable foundation for future deployment on quantum computing platforms.
+
+## THREE COMPONENTS :
+### Classical Version :
+This has all files that implement the algorithm using basic python and direct classical processing
+### Pixel-wise QC :
+This has files that implement the algorithm of the paper, including Loading of Cover-Secret Images in QC and embedding- extraction applied pixel-wise according to coordinate of the pixel
+### Full QC with comparators :
+This has files that implement the algorithm, using comparators, and in single shot rather than using pixel-wise approach. 
+
+##  REQUIRED LIBRARIES :
+ - QISKIT(2.2.3)
+ - PYTHON(3.12)
+ - Sample images are given in ASSESTS
