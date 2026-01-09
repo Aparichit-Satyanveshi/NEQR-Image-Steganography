@@ -14,8 +14,9 @@ but all operations are constrained so that they can be mapped to quantum logic.
 
 ### Scope
 
-Encoding and decoding of grayscale images
-Bit-level embedding and extraction
-Reconstruction with zero information loss
-Metric-based validation (MSE, MAE, PSNR)
+- Encoding and decoding of grayscale images
+- Bit-level embedding and extraction
+- Reconstruction with zero information loss
+- Metric-based validation (MSE, MAE, PSNR)
+
 
