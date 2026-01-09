@@ -1,6 +1,6 @@
 ### Purpose
 
-This directory contains a classical implementation of an NEQR-inspired grayscale image representation and steganography pipeline. The objective is to validate correctness, reversibility, and bit-level consistency before translating the logic to quantum circuits.
+This directory contains a classical implementation of an NEQR-inspired grayscale image representation, bsed upon the paper [Quantum steganography based on reflected gray code for color images](https://journals.sagepub.com/doi/abs/10.3233/IDT-190034) and steganography pipeline. The objective is to validate correctness, reversibility, and bit-level consistency before translating the logic to quantum circuits.
 
 ### Conceptual Working
 
@@ -18,5 +18,6 @@ but all operations are constrained so that they can be mapped to quantum logic.
 - Bit-level embedding and extraction
 - Reconstruction with zero information loss
 - Metric-based validation (MSE, MAE, PSNR)
+
 
 
